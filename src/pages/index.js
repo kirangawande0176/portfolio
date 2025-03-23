@@ -177,14 +177,13 @@ export default function Home() {
                   <div className="w-75 text-start">
                     <h5> About Me:</h5>
                     <p>
-                      {" "}
-                      I&#39;m a Frontend-Focused Web Developer, dedicated to
+                      I&#39;m a Frontend&#8208;Focused Web Developer, dedicated to
                       building and managing the frontend of websites and web
                       applications. My goal is to ensure that each project I
                       work on contributes to the overall success of the product.
                       With a strong focus on user experience and performance, I
                       specialize in creating dynamic, responsive, and visually
-                      appealing web interfaces.{" "}
+                      appealing web interfaces.
                     </p>
 
                     <h5> What I Do: </h5>
@@ -197,7 +196,7 @@ export default function Home() {
 
                       <li>
                         Implement modern web technologies to ensure seamless,
-                        user-friendly experiences.
+                        user&#8208;friendly experiences.
                       </li>
 
                       <li>
@@ -215,7 +214,7 @@ export default function Home() {
                     <h5> Sharing Knowledge: </h5>
 
                     <p>
-                      {" "}
+                   
                       I am passionate about sharing the knowledge I&#39;ve gained
                       over the years in web development. I contributes on many
                       projects eg. HDFC Credila on Nextjs, HDFC Bleu on Strapi
@@ -224,7 +223,7 @@ export default function Home() {
                       LinkedIn and Instagram, I regularly post valuable content
                       aimed at helping the developer community grow and learn.
                       Feel free to connect or follow me if you&#39;re interested in
-                      web development tips, tutorials, or insights.{" "}
+                      web development tips, tutorials, or insights.
                     </p>
 
                     <h5> Open to Opportunities: </h5>
@@ -233,7 +232,7 @@ export default function Home() {
                       I&#39;m always open to new job opportunities where I can
                       contribute, learn, and grow as a developer. If you have a
                       project or position that aligns with my skills and
-                      experience, don't hesitate to reach out! Let's connect and
+                      experience, don&#39;t hesitate to reach out! Let's connect and
                       discuss how we can collaborate.
                     </p>
                   </div>
