@@ -98,12 +98,6 @@ export default function Home() {
                       Projects
                     </Link>
                   </li>
-
-                  {/* <li className="nav-item">
-                    <Link className="nav-link" href="#scrollspyHeading4">
-                     Contact
-                    </Link>
-                  </li> */}
                 </ul>
               </div>
               <button
@@ -184,7 +178,7 @@ export default function Home() {
                     <h5> About Me:</h5>
                     <p>
                       {" "}
-                      I'm a Frontend-Focused Web Developer, dedicated to
+                      I&#39;m a Frontend-Focused Web Developer, dedicated to
                       building and managing the frontend of websites and web
                       applications. My goal is to ensure that each project I
                       work on contributes to the overall success of the product.
@@ -222,21 +216,21 @@ export default function Home() {
 
                     <p>
                       {" "}
-                      I am passionate about sharing the knowledge I've gained
+                      I am passionate about sharing the knowledge I&#39;ve gained
                       over the years in web development. I contributes on many
                       projects eg. HDFC Credila on Nextjs, HDFC Bleu on Strapi
                       and Reactjs and War (Employee Management System ) on
                       Nextjs. Having Experience of Bitbucket ane Git On my
                       LinkedIn and Instagram, I regularly post valuable content
                       aimed at helping the developer community grow and learn.
-                      Feel free to connect or follow me if you're interested in
+                      Feel free to connect or follow me if you&#39;re interested in
                       web development tips, tutorials, or insights.{" "}
                     </p>
 
                     <h5> Open to Opportunities: </h5>
 
                     <p>
-                      I’m always open to new job opportunities where I can
+                      I&#39;m always open to new job opportunities where I can
                       contribute, learn, and grow as a developer. If you have a
                       project or position that aligns with my skills and
                       experience, don't hesitate to reach out! Let's connect and
