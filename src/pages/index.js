@@ -214,25 +214,26 @@ export default function Home() {
                     <h5> Sharing Knowledge: </h5>
 
                     <p>
-                   
-                      I am passionate about sharing the knowledge I&#39;ve gained
+
+                      I am passionate about sharing the knowledge I&apos;ve gained
                       over the years in web development. I contributes on many
                       projects eg. HDFC Credila on Nextjs, HDFC Bleu on Strapi
                       and Reactjs and War (Employee Management System ) on
                       Nextjs. Having Experience of Bitbucket ane Git On my
                       LinkedIn and Instagram, I regularly post valuable content
                       aimed at helping the developer community grow and learn.
-                      Feel free to connect or follow me if you&#39;re interested in
+                      Feel free to connect or follow me if you&apos;re interested in
                       web development tips, tutorials, or insights.
+             
                     </p>
 
                     <h5> Open to Opportunities: </h5>
 
                     <p>
-                      I&#39;m always open to new job opportunities where I can
+                      I&apos;m always open to new job opportunities where I can
                       contribute, learn, and grow as a developer. If you have a
                       project or position that aligns with my skills and
-                      experience, don&#39;t hesitate to reach out! Let's connect and
+                      experience, don&apos;t hesitate to reach out! Let&apos;s connect and
                       discuss how we can collaborate.
                     </p>
                   </div>
