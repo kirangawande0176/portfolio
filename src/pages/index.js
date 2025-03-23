@@ -98,12 +98,6 @@ export default function Home() {
                       Projects
                     </Link>
                   </li>
-
-                  {/* <li className="nav-item">
-                    <Link className="nav-link" href="#scrollspyHeading4">
-                     Contact
-                    </Link>
-                  </li> */}
                 </ul>
               </div>
               <button
@@ -139,7 +133,7 @@ export default function Home() {
                 className="scrollspy-example  rounded-2 mt-4"
                 tabIndex={0}
               >
-                <h4 id="scrollspyHeading1" className="mb-0"></h4>
+                <span id="scrollspyHeading1" className="mb-0"></span>
                 <div className={` ${styles.divContainer}  `}>
                   <h1 className={`${styles.mainHeading} `}> Kiran Gawande</h1>
                   <h5 className={`w-50 ${styles.mainHeadingPara} `}>
@@ -161,45 +155,7 @@ export default function Home() {
                       </button>
                     </a>
 
-                    {/* Modal */}
-                    <div
-                      className="modal fade"
-                      id="staticBackdrop"
-                      data-bs-backdrop="static"
-                      data-bs-keyboard="false"
-                      tabIndex={-1}
-                      aria-labelledby="staticBackdropLabel"
-                      aria-hidden="true"
-                    >
-                      <div className="modal-dialog">
-                        <div className="modal-content">
-                          <div className="modal-header border-0">
-                            <h1
-                              className="modal-title fs-5"
-                              id="staticBackdropLabel"
-                            >
-                              Resume
-                            </h1>
-
-                            <button
-                              type="button"
-                              className="btn-close"
-                              data-bs-dismiss="modal"
-                              aria-label="Close"
-                            />
-                          </div>
-                          <div className="modal-body">
-                            <embed
-                              class="pdf"
-                              //  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
-                              src="https://drive.google.com/file/d/11fhr9y8om9BCDq09GtNq9zCASd94jRiy/view?usp=drivesdk"
-                              width="800"
-                              height="500"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              
                   </div>
                   <Image
                     className={styles.scrollDown}
@@ -211,7 +167,7 @@ export default function Home() {
                   />
                 </div>
 
-                <h4 id="scrollspyHeading2"></h4>
+                <span id="scrollspyHeading2"></span>
 
                 <div className={` ${styles.divContainer}  `}>
                   <h3 className={` mt-5 pt-5 ${styles.divMainText}  `}>
@@ -221,14 +177,13 @@ export default function Home() {
                   <div className="w-75 text-start">
                     <h5> About Me:</h5>
                     <p>
-                      {" "}
-                      I&apos;m a Frontend-Focused Web Developer, dedicated to
+                      I&#39;m a Frontend&#8208;Focused Web Developer, dedicated to
                       building and managing the frontend of websites and web
                       applications. My goal is to ensure that each project I
                       work on contributes to the overall success of the product.
                       With a strong focus on user experience and performance, I
                       specialize in creating dynamic, responsive, and visually
-                      appealing web interfaces.{" "}
+                      appealing web interfaces.
                     </p>
 
                     <h5> What I Do: </h5>
@@ -241,7 +196,7 @@ export default function Home() {
 
                       <li>
                         Implement modern web technologies to ensure seamless,
-                        user-friendly experiences.
+                        user&#8208;friendly experiences.
                       </li>
 
                       <li>
@@ -259,7 +214,7 @@ export default function Home() {
                     <h5> Sharing Knowledge: </h5>
 
                     <p>
-                      {" "}
+
                       I am passionate about sharing the knowledge I&apos;ve gained
                       over the years in web development. I contributes on many
                       projects eg. HDFC Credila on Nextjs, HDFC Bleu on Strapi
@@ -268,7 +223,8 @@ export default function Home() {
                       LinkedIn and Instagram, I regularly post valuable content
                       aimed at helping the developer community grow and learn.
                       Feel free to connect or follow me if you&apos;re interested in
-                      web development tips, tutorials, or insights.{" "}
+                      web development tips, tutorials, or insights.
+             
                     </p>
 
                     <h5> Open to Opportunities: </h5>
@@ -459,7 +415,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <h4 id="scrollspyHeading3"></h4>
+                <span id="scrollspyHeading3"></span>
 
                 <div
                   className={`m-auto d-flex justify-content-center flex-column align-items-center mb-4  w-75`}
