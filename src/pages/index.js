@@ -139,7 +139,7 @@ export default function Home() {
                 className="scrollspy-example  rounded-2 mt-4"
                 tabIndex={0}
               >
-                <h4 id="scrollspyHeading1" className="mb-0"></h4>
+                <span id="scrollspyHeading1" className="mb-0"></span>
                 <div className={` ${styles.divContainer}  `}>
                   <h1 className={`${styles.mainHeading} `}> Kiran Gawande</h1>
                   <h5 className={`w-50 ${styles.mainHeadingPara} `}>
@@ -161,45 +161,7 @@ export default function Home() {
                       </button>
                     </a>
 
-                    {/* Modal */}
-                    <div
-                      className="modal fade"
-                      id="staticBackdrop"
-                      data-bs-backdrop="static"
-                      data-bs-keyboard="false"
-                      tabIndex={-1}
-                      aria-labelledby="staticBackdropLabel"
-                      aria-hidden="true"
-                    >
-                      <div className="modal-dialog">
-                        <div className="modal-content">
-                          <div className="modal-header border-0">
-                            <h1
-                              className="modal-title fs-5"
-                              id="staticBackdropLabel"
-                            >
-                              Resume
-                            </h1>
-
-                            <button
-                              type="button"
-                              className="btn-close"
-                              data-bs-dismiss="modal"
-                              aria-label="Close"
-                            />
-                          </div>
-                          <div className="modal-body">
-                            <embed
-                              class="pdf"
-                              //  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
-                              src="https://drive.google.com/file/d/11fhr9y8om9BCDq09GtNq9zCASd94jRiy/view?usp=drivesdk"
-                              width="800"
-                              height="500"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              
                   </div>
                   <Image
                     className={styles.scrollDown}
@@ -211,7 +173,7 @@ export default function Home() {
                   />
                 </div>
 
-                <h4 id="scrollspyHeading2"></h4>
+                <span id="scrollspyHeading2"></span>
 
                 <div className={` ${styles.divContainer}  `}>
                   <h3 className={` mt-5 pt-5 ${styles.divMainText}  `}>
@@ -459,7 +421,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <h4 id="scrollspyHeading3"></h4>
+                <span id="scrollspyHeading3"></span>
 
                 <div
                   className={`m-auto d-flex justify-content-center flex-column align-items-center mb-4  w-75`}
