@@ -136,7 +136,7 @@ export default function Home() {
                 <span id="scrollspyHeading1" className="mb-0"></span>
                 <div className={` ${styles.divContainer}  `}>
                   <h1 className={`${styles.mainHeading} `}> Kiran Gawande</h1>
-                  <h5 className={`w-50 ${styles.mainHeadingPara} `}>
+                  <h5 className={` ${styles.mainHeadingPara} `}>
                     {" "}
                     Skilled Web Developer with experience in building responsive
                     and user-friendly web application using React.js and
@@ -174,7 +174,7 @@ export default function Home() {
                     About
                   </h3>
 
-                  <div className="w-75 text-start">
+                  <div className={`w-75 text-start ${styles.aboutDivMain} `} >
                     <h5> About Me:</h5>
                     <p>
                       I&#39;m a Frontend&#8208;Focused Web Developer, dedicated to
@@ -188,7 +188,7 @@ export default function Home() {
 
                     <h5> What I Do: </h5>
 
-                    <ul>
+                    <ul className={styles.aboutList}>
                       <li>
                         Develop and manage the frontend aspects of websites and
                         web applications.
@@ -241,7 +241,7 @@ export default function Home() {
                     Skills
                   </h3>
 
-                  <div className="tag-list">
+                  <div className={`tag-list  ${styles.tagList}`} >
                     <div
                       className="loop-slider"
                       style={{
@@ -417,13 +417,13 @@ export default function Home() {
                 <span id="scrollspyHeading3"></span>
 
                 <div
-                  className={`m-auto d-flex justify-content-center flex-column align-items-center mb-4  w-75`}
+                  className={`${styles.carouselDiv} m-auto d-flex justify-content-center flex-column align-items-center mb-4 `}
                 >
                   <h3 className={styles.divMainText}>Projects</h3>
 
                   <div
                     id="carouselExampleAutoplaying"
-                    className="carousel slide carousel-fade"
+                    className={`carousel slide carousel-fade ${styles.carousel}`} 
                     data-bs-ride="carousel"
                   >
                     <div className="carousel-inner">
